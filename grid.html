@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=.0">
+  <title>Grid Assignmnet</title>
+  <style>
+    .main {
+      display: flex;
+      padding: 90px;
+    }
+
+    .heading{
+      text-align: center;
+    }
+
+    .item {
+      background-color: rgb(29, 142, 207);
+      height: 500px;
+      width: 260px;
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 10px 10px;
+      gap: 4px;
+      border: 2px solid black;
+      border-radius: 15px;
+      margin: 20px;
+    }
+
+    .item1 {
+      background-color: darkblue;
+      height: 100px;
+      width: 260px;
+      grid-column: 1/3;
+
+
+    }
+
+    .item2 {
+      background-color: darkblue;
+      height: 220px;
+      width: 100px;
+      grid-row: 2/4;
+      grid-column: 1/2;
+    }
+
+    .item3 {
+      background-color: darkblue;
+      height: 100px;
+      width: 150px;
+
+    }
+
+    .item4 {
+      background-color: darkblue;
+      height: 100px;
+      width: 150px;
+    }
+
+    .item5 {
+      background-color: darkblue;
+      height: 100px;
+      width: 260px;
+      grid-column: 1/3;
+    }
+
+    .item6 {
+      background-color: darkblue;
+      height: 30px;
+      width: 260px;
+      grid-column: 1/3;
+    }
+
+    .grid {
+      background-color: rgb(29, 142, 207);
+      height: 500px;
+      width: 260px;
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 10px 10px;
+      gap: 4px;
+      border: 2px solid black;
+      border-radius: 15px;
+      
+      text-align: center;
+      color: white;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="main">
+    <div>
+      <h1 class="heading">
+        Template
+      </h1>
+      <div class="item">
+        <div class="item1"></div>
+        <div class="item2"></div>
+        <div class="item3"></div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+        <div class="item6"></div>
+      </div>
+    </div>
+    <div>
+
+      <h1 class="heading">
+        Flexbox
+      </h1>
+      <div class="item">
+        <div class="item1"></div>
+        <div class="item2"></div>
+        <div class="item3"></div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+        <div class="item6"></div>
+      </div>
+    </div>
+
+    <div>
+      <h1 class="heading">
+        Grid
+      </h1>
+      <div class="grid">
+        <div class="item1"> <b>HEADING </b></div>
+        <div class="item2"><b>ARTICLE</b></div>
+        <div class="item3"><b>TEXT 1</b></div>
+        <div class="item4"><b>TEXT 2</b></div>
+        <div class="item5"><b>MAIN</b></div>
+        <div class="item6"><b>FOOTER</b></div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
